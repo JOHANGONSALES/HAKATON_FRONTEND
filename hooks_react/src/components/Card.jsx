@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import "./Card.css"
 import IconFavDefault from "../assets/icon-fav-default.svg"
 import IconFavPressed from "../assets/icon-fav-pressed.svg"
-import IconComprDefault from "../assets/icon-compra-default.svg"
-import IconComprPressed from "../assets/icon-compra-pressed.svg"
+import IconComprDefault from "../assets/icon-shop-default.svg"
+import IconComprPressed from "../assets/icon-shop-pressed.svg"
 
 const json = [
     {
@@ -27,62 +27,12 @@ const json = [
       "description": "Aenean a orci nec augue finibus venenatis.",
       "image": "https://source.unsplash.com/random/300x200"
     },
-    {
-      "id": 4,
-      "name": "Producto 4",
-      "price": 29.99,
-      "description": "Vestibulum malesuada justo vitae mi maximus, id facilisis ex finibus.",
-      "image": "https://source.unsplash.com/random/300x200"
-    },
-    {
-      "id": 5,
-      "name": "Producto 5",
-      "price": 12.99,
-      "description": "Phasellus dignissim metus eget lectus elementum, vel rhoncus odio aliquam.",
-      "image": "https://source.unsplash.com/random/300x200"
-    },
-    {
-      "id": 6,
-      "name": "Producto 6",
-      "price": 39.99,
-      "description": "Cras vel nibh tincidunt, vulputate arcu nec, facilisis odio.",
-      "image": "https://source.unsplash.com/random/300x200"
-    },
-    {
-      "id": 7,
-      "name": "Producto 7",
-      "price": 22.99,
-      "description": "Fusce tempus eros et felis volutpat tristique.",
-      "image": "https://source.unsplash.com/random/300x200"
-    },
-    {
-      "id": 8,
-      "name": "Producto 8",
-      "price": 17.99,
-      "description": "Donec ultrices quam eu nisi commodo congue.",
-      "image": "https://source.unsplash.com/random/300x200"
-    },
-    {
-      "id": 9,
-      "name": "Producto 9",
-      "price": 31.99,
-      "description": "Suspendisse nec ligula ultricies, fermentum purus quis, cursus lectus.",
-      "image": "https://source.unsplash.com/random/300x200"
-    },
-    {
-      "id": 10,
-      "name": "Producto 10",
-      "price": 27.99,
-      "description": "Vivamus eu neque vel ex fermentum faucibus.",
-      "image": "https://source.unsplash.com/random/300x200"
-    }
+    
   ]; // Tu array de datos aquí
 
 export default function Card () {
   const [favorites, setFavorites] = useState(json.map(() => false));
   const [purchaseStatus, setPurchaseStatus] = useState(json.map(() => false));
-  
-  
   
   const toggleFavorite = (index) => {
     const newFavorites = [...favorites];
@@ -97,14 +47,17 @@ export default function Card () {
   };
 
   return (
-    <ul>
+    <ul className="card-list">
       {json.map((card, index) => (
           <div className='container-card'>
             <li key={card.id}>
+              
               <img className="img-product" src={card.image} alt="" />
-              <h4>{card.name}</h4>
-              <p>{card.description}</p>
-              <p>{card.price}</p>
+              <div className='container-txt'>
+                <h4>{card.name}</h4>
+                <p className='description'>{card.description}</p>
+                <p className='price'>{card.price}</p>
+              </div>
               <div className='container-btn-card'>
                 <button className= "fav-btn" onClick={() => toggleFavorite(index)}>
                   <img
