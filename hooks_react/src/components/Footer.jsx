@@ -1,18 +1,18 @@
 import React from 'react';
-import logosvg from './asset/logosvg1.svg'
-import copy from './asset/copy.svg'
+import Logosvg from '../assets/logosvg1.svg'
+import Copy from '../assets/copy.svg'
 import './Footer.css';
 
 const Footer = () => {
   return (
    <footer>
     <div className="footer-content">
-        <img className='logo' src={logosvg} alt="Logo" />
-        <img className='copy' src={copy} alt="copyray" />
+        <img className='logo' src={Logosvg} alt="Logo de la empresa Marketech" />
+        <img className='copy' src={Copy} alt="copyright de la empresa Marketech" />
     </div>
    </footer>
 
   )
 };
 
-export default Footer;
+export default Footer
