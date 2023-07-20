@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="./src/assets/images/logo.svg" alt= "Logo" width=250px> 
+  <img src="./hooks_react/src/assets/logosvg1.svg" alt= "Logo" width=250px> 
   
 </h1>
 
