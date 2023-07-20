@@ -1,9 +1,9 @@
 import React from 'react';
 import './Header.css';
-import logo from '../assets/images/logo.svg';
-import FavIcon from '../assets/images/FavIcon.svg';
-import BuyIcon from '../assets/images/BuyIcon.svg';
-import SearchIcon from '../assets/images/SearchIcon.svg';
+import logo from '../assets/logo.svg';
+import FavIcon from '../assets/FavIcon.svg';
+import BuyIcon from '../assets/BuyIcon.svg';
+import SearchIcon from '../assets/SearchIcon.svg';
 import {Link} from "react-router-dom"
 
 
