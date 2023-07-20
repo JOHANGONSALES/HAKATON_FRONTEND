@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  --body-color:white;
+  --bkg-card: #FBFBFB;
+  --bkg-offers:#C0DEDF;
+  --accent-color: #4BB9BC;
+  --txt-accent-color:#3CA0A3;
+  --button-hover: #1A797B;
+  --font-descrip: #737373;
+  --font-nav:#3C3C3C;
+  --nav-hover: #171717;
+  --font-color: #1D1D1D;
+  --bkg-header:#000000;
+}
+
