@@ -7,7 +7,6 @@ import Laptop from "../src/components/pages/Laptop.jsx"
 import Moviles from "../src/components/pages/Moviles.jsx"
 import Accesorios from "../src/components/pages/Accesorios"
 
-
 function App() {
   return (
     <BrowserRouter> 
