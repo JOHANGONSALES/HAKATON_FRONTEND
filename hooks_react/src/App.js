@@ -1,13 +1,21 @@
 import './App.css';
+
 import Card from './components/Card';
+
+import Header from './components/Header';
+
 
 function App() {
   return (
     <div>
+    
+      <Header/>
       <Card/>
       
-      <button type="button" class="btn btn-secondary">Secondary</button>
       
+
+      
+        
     </div>
   );
 }
