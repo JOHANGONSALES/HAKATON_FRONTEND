@@ -4,6 +4,7 @@ import logo from '../assets/images/logo.svg';
 import FavIcon from '../assets/images/FavIcon.svg';
 import BuyIcon from '../assets/images/BuyIcon.svg';
 import SearchIcon from '../assets/images/SearchIcon.svg';
+import {Link} from "react-router-dom"
 
 
 const Header = () => {
@@ -24,9 +25,9 @@ const Header = () => {
         </nav>  
     </div>
     <div class="sections">
-        <span> Moviles </span>
-        <span> Laptop </span>
-        <span> Accesorios </span>
+        <Link to="/Moviles" className="links">Moviles</Link>
+        <Link to="/Laptop" className="links">Laptop</Link>
+        <Link to="/Accesorios" className="links">Accesorios</Link>
     </div>
    </header>
 
