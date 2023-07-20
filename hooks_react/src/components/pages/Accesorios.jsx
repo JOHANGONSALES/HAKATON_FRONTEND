@@ -1,4 +1,6 @@
-import "./Accesorios.css"
+import "../Card.css"
+import Card from "../Card"
+import Footer from "../Footer"
 import Header from "../Header"
 
 export default function Accesorios() {
@@ -6,6 +8,9 @@ export default function Accesorios() {
         <div className="home-container"> 
            
             <Header />
+            <h2 class="tittle"> Accesorios</h2>
+            <Card/>
+            <Footer/>
            
         </div>
     )

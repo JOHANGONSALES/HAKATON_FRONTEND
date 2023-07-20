@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     gap: 1rem;
     padding: 2rem;
+    justify-content: center;
 }
 .container-card{
     padding: 1.5rem;
@@ -44,6 +45,7 @@
     .card-list {
         flex-direction: column;
         align-items: center;
+        
     }
 
     .container-card{
@@ -51,3 +53,8 @@
         width: 20rem;
     }
 }
+
+  .tittle {
+    text-align: center;
+    margin: 2em;
+  }

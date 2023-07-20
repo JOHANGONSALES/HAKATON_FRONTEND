@@ -8,6 +8,7 @@
     background-color: black;
     display: flex;
     align-items: center;
+    
 }
 
 .navbar__container-btn{
@@ -54,11 +55,12 @@
 
 
 .sections{
-  margin-top: 3em;
-  text-align: center;
-  word-spacing: 10em;
-  font-weight: bold;
-  font-size: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    margin: 3em;
+    font-weight: bold;
+    font-size: 20px;
   
 }
 
@@ -88,6 +90,13 @@
         display: flex;
         justify-content: space-around;
         width: 100%;
+    }
+    .sections{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 3em;
+      margin-bottom: 3em;
     }
 } 
 
