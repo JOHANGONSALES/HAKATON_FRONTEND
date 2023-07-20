@@ -33,7 +33,7 @@ const Header = () => {
         </nav>  
     </div>
     <div class="sections">
-        <Link to="/Moviles" className="links">Moviles</Link>
+        <Link to="/Moviles" className="links">Móviles</Link>
         <Link to="/Laptop" className="links">Laptop</Link>
         <Link to="/Accesorios" className="links">Accesorios</Link>
     </div>

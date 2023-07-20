@@ -4,9 +4,11 @@ import Footer from "../Footer"
 
 export default function Shopping() {
     return (
-        <div className="home-container"> 
-           
+        <div className="shopping-container"> 
             <Header />
+            <div className="container-title">
+                <h2>Mis Compras</h2> 
+            </div>
             <Footer/>
         </div>
     )
