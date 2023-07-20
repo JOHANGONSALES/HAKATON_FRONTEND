@@ -1,0 +1,15 @@
+.container-card{
+    padding: 1.5rem;
+    border-radius: 0.4rem;
+    width: 20%;
+    list-style-type: none;
+    background-color: var(--bkg-card);
+}
+
+.img-product{
+    width: 100%;
+}
+.container-btn-card{
+    display: flex;
+    gap: 1rem;
+}

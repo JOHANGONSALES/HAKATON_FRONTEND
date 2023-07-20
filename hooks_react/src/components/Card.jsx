@@ -99,31 +99,32 @@ export default function Card () {
   return (
     <ul>
       {json.map((card, index) => (
-        <li key={card.id}>
-          <img src={card.image} alt="" />
-          <h4>{card.name}</h4>
-          <p>{card.description}</p>
-          <p>{card.price}</p>
-        <div className='container-btn-card'>
-        <button className= "fav-btn" onClick={() => toggleFavorite(index)}>
-          <img
-            style={{ cursor: 'pointer' }}
-            src={favorites[index] ? IconFavDefault : IconFavPressed}
-            alt="heart"
-          />
-        </button>
+          <div className='container-card'>
+            <li key={card.id}>
+              <img className="img-product" src={card.image} alt="" />
+              <h4>{card.name}</h4>
+              <p>{card.description}</p>
+              <p>{card.price}</p>
+              <div className='container-btn-card'>
+                <button className= "fav-btn" onClick={() => toggleFavorite(index)}>
+                  <img
+                  style={{ cursor: 'pointer' }}
+                  src={favorites[index] ? IconFavDefault : IconFavPressed}
+                  alt="heart"
+                  />
+                </button>
 
-        <button className= "shop-btn" onClick={() => togglePurchase(index)}>
-          <img
-            style={{ cursor: 'pointer' }}
-            src={favorites[index] ? IconComprDefault : IconComprPressed}
-            alt="heart"
-          />
-        </button>
+                <button className= "shop-btn" onClick={() => togglePurchase(index)}>
+                  <img
+                  style={{ cursor: 'pointer' }}
+                  src={favorites[index] ? IconComprDefault : IconComprPressed}
+                  alt="heart"
+                  />
+                </button>
+              </div>
+
+            </li>
         </div>
-
-
-        </li>
       ))}
     </ul>
   );
