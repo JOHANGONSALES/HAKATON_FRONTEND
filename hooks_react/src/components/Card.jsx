@@ -51,7 +51,6 @@ export default function Card () {
       {json.map((card, index) => (
           <div className='container-card'>
             <li key={card.id}>
-              
               <img className="img-product" src={card.image} alt="" />
               <div className='container-txt'>
                 <h4>{card.name}</h4>

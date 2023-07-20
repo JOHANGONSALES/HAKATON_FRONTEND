@@ -1,11 +1,5 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 .navbar{
-    background-color: black;
+    background-color: var(--bkg-header);
     display: flex;
     align-items: center;
 }
@@ -28,11 +22,11 @@
     position: absolute;
     top: 0;
     left: 10px;
-    color: #888;
+    color: var(--font-descrip);
 }
 .navbar__btn-search{
-    background-color: #4BB9BC;
-    color: white;
+    background-color: var(--accent-color);
+    color: var(--body-color);
     width: 120px;
     height: 35px;
     border: none;
@@ -40,6 +34,12 @@
     font-weight: bold;
     font-size: 20px;
 }
+
+.navbar__btn-search:hover{
+    background-color: var(--button-hover);
+}
+
+
 .buttons__fav-buy{
     display: flex;
     justify-content: space-around;
@@ -48,10 +48,9 @@
 }
 .btn-fav, .btn-buy{
     text-decoration: none;
-    background-color: black;
+    background-color:var(--bkg-header);
     border: none;
 }
-
 
 .sections{
   margin-top: 3em;
@@ -60,6 +59,15 @@
   font-weight: bold;
   font-size: 20px;
   
+}
+.links{
+    text-decoration: none;
+    color: var(--font-nav);
+    padding: 1rem;
+}
+
+.links:hover{
+    color: var(--txt-accent-color);
 }
 
 @media screen and (max-width: 1000px){
@@ -71,7 +79,6 @@
         justify-content: end;
         width: 9em;
     }
-    
 }
 
 @media screen and (max-width: 768px){
