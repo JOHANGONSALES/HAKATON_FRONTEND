@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <img src="./src/assets/images/logo.svg" alt= "Logo" width=250px> 
+  
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Tabla de contenidos 
+   1. [Información General](#información-general)
+   2. [UI](#UI)
+   3. [Tecnologías](#tecnologías)
+   4. [Herramientas](#herramientas)
+   5. [Instalación](#instalación)
+   6. [Developers](#developers)
 
-## Available Scripts
+## Información General
+Hackathon F5 Julio 2023
 
-In the project directory, you can run:
+Nuestra plataforma es un marketplace que conecta a anunciantes y usuarios. Los anunciantes publican diversos productos de tecnología, pagando por ello. Los usuarios exploran los anuncios de forma gratuita y pueden contactar directamente a los anunciantes. 
+Ofrecemos una búsqueda avanzada por características, así como la opción de marcar anuncios favoritos. Además, notificamos a los usuarios sobre nuevos anuncios que coinciden con sus intereses. Nuestra misión es facilitar la conexión entre ambas partes y hacer que el proceso de búsqueda y publicación sea eficiente y satisfactorio.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## UI
+[Figma](https://www.figma.com/file/E4tvc9slZWCUOGyn97CzCC/Hackathon?type=design&node-id=0%3A1&mode=design&t=vy51kYaMC37ZNdKg-1)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tecnologías
+<div> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> 
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="css3" width="40" height="40"/></div>
 
-### `npm run build`
+## Herramientas
+<div>
+<img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/>
+<img src="https://w7.pngwing.com/pngs/512/824/png-transparent-visual-studio-code-hd-logo-thumbnail.png" alt="vscode" width="40" heigth="40"/>
+<img src="https://w7.pngwing.com/pngs/115/721/png-transparent-trello-social-icons-icon.png" alt="trello" width="40" heigth="40"/>
+<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
+<img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github" width="40" heigth="40"/> </div>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Instalación
+Este proyecto se ha desarrollado en la version `v18.12.0` o superior de node.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Para instalar las dependencias:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  `npm install`
 
-### `npm run eject`
+Para ejecutar la App en modo desarrollo:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  `npm start`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Para ejecutar los tests unitarios: 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  `npm run test`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Developers
 
-## Learn More
+[Cindy Leiva](https://github.com/CindyLeiva)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[Edith Baldó]()
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[Jatna Mendez]()
 
-### Code Splitting
+[Brian Menéndez]()
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[Johan Gonsales]()
 
-### Analyzing the Bundle Size
+[Andreu Baltazar]()
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+[Ruben Reyes]()
 
-### Making a Progressive Web App
+[Raúl Labajos]()
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Rodrigo]()
