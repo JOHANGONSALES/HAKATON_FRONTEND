@@ -74,4 +74,4 @@ Para ejecutar los tests unitarios:
 
 [Raúl Labajos]()
 
-[Rodrigo]()
+[Rodrigo Munoz]()
